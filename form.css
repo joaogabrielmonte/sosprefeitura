@@ -1,0 +1,55 @@
+/* CSS para a área de comentários */
+#comment-form {
+    margin-bottom: 20px;
+}
+
+#comment-text {
+    width: 100%;
+    height: 120px; /* Altura do campo de texto */
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc; /* Cor da borda */
+    font-size: 14px; /* Tamanho do texto */
+}
+
+.comment-list {
+    margin-top: 20px;
+}
+
+.comment-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc; /* Cor da borda entre os comentários */
+    padding-bottom: 10px;
+}
+
+.comment-item:last-child {
+    border-bottom: none; /* Remover a borda do último comentário */
+}
+
+.comment-text {
+    font-size: 14px; /* Tamanho do texto do comentário */
+}
+
+.comment-date {
+    font-size: 12px; /* Tamanho da data do comentário */
+    color: #999; /* Cor da data do comentário */
+}
+
+/* Novo estilo para o comentário enviado */
+.comment-list {
+    background-color: #f0f0f0; /* Cor de fundo do comentário do usuário */
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+.comment-list img {
+    max-width: 50px; /* Define a largura máxima da imagem como 100% */
+    height: 50px; /* Permite que a altura seja ajustada automaticamente mantendo a proporção original */
+    display: block; /* Garante que a imagem seja exibida como um bloco para controlar melhor o layout */
+    margin-top: 10px; /* Adiciona uma margem superior para separar o texto do comentário da imagem */
+    margin-bottom: -1.8rem; /* Adicione uma margem inferior para separar a imagem do próximo comentário */
+}
+
