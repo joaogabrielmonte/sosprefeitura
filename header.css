@@ -1,6 +1,6 @@
 .header {
   position: relative;
-  background: url(../img/sosbanner.png) no-repeat;
+  background: url(sosbanner.png) no-repeat;
   background-size: cover;
   background-position: center;
   height: 11rem;
